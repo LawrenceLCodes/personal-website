@@ -1,0 +1,24 @@
+// colors
+$darkGray: #2e2e35;
+$darkerGrayNavy: #34343b;
+$mediumGray: #959595;
+$lightGray: #b8b7b7;
+$offWhite: #dadada;
+$butterscotch: #e4aa48;
+
+html {
+  scroll-behavior: smooth;
+  transition: 2 ease;
+}
+
+body {
+  max-width: 1920px;
+  background-color: $darkGray;
+  color: $offWhite;
+}
+
+// .wrapper {
+//   max-width: 1500px;
+//   width: 90%;
+//   margin: 0 auto;
+// }

@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+// Font Families:
+// font-family: 'Nunito Sans', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+
+//fonts
+$nunitoSans: 'Nunito Sans', sans-serif;
+$openSans: 'Open Sans', sans-serif;
+
+// Set font size for the entire page to be a base value so that it can be easily scaled accordingly using rem.
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $openSans;
+}
