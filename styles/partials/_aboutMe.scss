@@ -1,7 +1,18 @@
 .aboutMe {
     background-color: $mediumGray;
+    height: 100vh;
+    padding: 30px 0px;
 
-    h2 {
-        text-align: center;
+    img {
+        border-radius: 30%;
     }
+}
+
+.aboutFlex {
+    display: flex;
+}
+
+.aboutFlexInner {
+    display: flex;
+    flex-direction: column;
 }
