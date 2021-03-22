@@ -1,3 +1,16 @@
+.headerArea {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px;
 
+}
+
+.navigationList {
+    display: flex;
+    
+    li {
+        margin: 0px 15px;
+    }
+}
 
 

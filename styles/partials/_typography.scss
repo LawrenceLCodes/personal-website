@@ -9,11 +9,17 @@ $nunitoSans: 'Nunito Sans', sans-serif;
 $openSans: 'Open Sans', sans-serif;
 
 // Set font size for the entire page to be a base value so that it can be easily scaled accordingly using rem.
-
 html {
   font-size: 62.5%;
 }
 
 body {
   font-family: $openSans;
+}
+
+h1,
+h2,
+h3 {
+  font-family: $openSans;
+  font-weight: 700;
 }

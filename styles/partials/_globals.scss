@@ -8,7 +8,7 @@ $butterscotch: #e4aa48;
 
 html {
   scroll-behavior: smooth;
-  transition: 2 ease;
+  transition: 1 ease;
 }
 
 body {
@@ -17,8 +17,33 @@ body {
   color: $offWhite;
 }
 
-// .wrapper {
-//   max-width: 1500px;
-//   width: 90%;
-//   margin: 0 auto;
-// }
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    line-height: 45px;
+    color: $offWhite;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  transition: all 0.3s ease-out 0s;
+  color: $lightGray;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1500px;
+  width: 90%;
+  margin: 0 auto;
+}
