@@ -18,6 +18,11 @@
     animation: bounce 2s infinite;
 }
 
+// For styling down arrow:
+.fa-arrow-down {
+    color: $butterscotch;
+}
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);

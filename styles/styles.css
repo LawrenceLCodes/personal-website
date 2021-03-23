@@ -416,6 +416,10 @@ p {
   animation: bounce 2s infinite;
 }
 
+.fa-arrow-down {
+  color: #e4aa48;
+}
+
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     -webkit-transform: translateY(0);
@@ -597,6 +601,47 @@ p {
   font-size: 2.2rem;
   color: #dadada;
   margin-right: 10px;
+}
+
+.backToTop {
+  -webkit-animation: bounce 2s infinite;
+          animation: bounce 2s infinite;
+  margin: 8% 0;
+  text-align: center;
+}
+
+.fa-angle-double-up {
+  color: #e4aa48;
+}
+
+@-webkit-keyframes backToTop {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes backToTop {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
 }
 
 .footer {
