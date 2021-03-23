@@ -7,10 +7,19 @@
     // margin: 0 auto;
     // grid-template-columns: repeat(1, 1fr);
     // grid-template-rows: 2fr;
+    // grid-template-columns: 1fr 1fr;
+    // grid-template-rows: auto auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
 
+.contactInner:first-child {
+    flex: 1 1 40%;
+}
+
+.contactInner:not(:first-child) {
+    flex: 1 1 40%;
 }
 
 .contactMessage {
@@ -28,8 +37,6 @@
         color: $butterscotch;
         position: relative;
     }
-
-    
     
 }
 

@@ -406,6 +406,46 @@ p {
           align-items: center;
 }
 
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+.bounce {
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+            transform: translateY(-15px);
+  }
+}
+
 .aboutMe {
   background-color: #36363E;
   height: 100vh;
@@ -490,8 +530,8 @@ p {
 .devicon-sass-original:hover,
 .devicon-firebase-plain-wordmark:hover {
   color: #e4aa48;
-  -webkit-transform: scale(1.14);
-          transform: scale(1.14);
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 @media screen and (min-width: 600px) {
@@ -523,6 +563,18 @@ p {
       flex-wrap: wrap;
 }
 
+.contactInner:first-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+}
+
+.contactInner:not(:first-child) {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40%;
+          flex: 1 1 40%;
+}
+
 .contactMessage {
   margin: 0 auto;
   text-align: center;
@@ -545,5 +597,12 @@ p {
   font-size: 2.2rem;
   color: #dadada;
   margin-right: 10px;
+}
+
+.footer {
+  background-color: #e4aa48;
+  color: #2e2e35;
+  text-align: center;
+  padding: 1px 0px;
 }
 /*# sourceMappingURL=styles.css.map */
