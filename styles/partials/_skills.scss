@@ -1,12 +1,29 @@
+.skills {
+    background-color: $darkGray;
+    height: 100vh;
+}
+
+// Grid Container
 .skillList {
+    width: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 20px;
-    align-items: stretch;
+    // grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+// Grid Items:
+.skillBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
 }
 
 // Styling for devicons
-
 .devicon-html5-plain-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-javascript-plain,
@@ -17,4 +34,30 @@
 .devicon-firebase-plain-wordmark
  {
     font-size: 6rem;
+    transition-duration: 0.5s;
+    transition: 0.5s cubic-bezier(.47,.73,.53,1.46);
+}
+
+.devicon-html5-plain-wordmark:hover,
+.devicon-css3-plain-wordmark:hover,
+.devicon-javascript-plain:hover,
+.devicon-react-original-wordmark:hover,
+.devicon-github-original-wordmark:hover,
+.devicon-git-plain:hover,
+.devicon-sass-original:hover,
+.devicon-firebase-plain-wordmark:hover {
+    color: $butterscotch;
+    transform: scale(1.14);
+}
+
+@media screen and (min-width: 600px) {
+    .skillList {
+        grid-template-columns: repeat(2, 1fr);
+    }        
+}
+
+@media screen and (min-width: 900px) {
+    .skillList {
+        grid-template-columns: repeat(4, 1fr);
+    } 
 }

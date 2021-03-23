@@ -1,0 +1,45 @@
+.contactMe {
+    height: 80vh;
+}
+
+.contactFlexContainer {
+    // width: 50%;
+    // margin: 0 auto;
+    // grid-template-columns: repeat(1, 1fr);
+    // grid-template-rows: 2fr;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.contactMessage {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+}
+
+.contactInner {
+    background-color: $mediumGray;
+    padding: 30px 30px;
+    border-radius: 20px;
+
+    a {
+        color: $butterscotch;
+        position: relative;
+    }
+
+    
+    
+}
+
+.far,
+.fab {
+    font-size: 2.2rem;
+    color: $offWhite;
+    margin-right: 10px;
+}
+
+
+
+

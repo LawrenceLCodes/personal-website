@@ -323,6 +323,31 @@ a {
   margin: 0 auto;
 }
 
+.buttonAnimation {
+  position: relative;
+}
+
+.buttonAnimation:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #e4aa48;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonAnimation:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -339,7 +364,7 @@ h3 {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 26px;
   font-family: "Nunito Sans", sans-serif;
 }
@@ -382,7 +407,7 @@ p {
 }
 
 .aboutMe {
-  background-color: #959595;
+  background-color: #36363E;
   height: 100vh;
   padding: 30px 0px;
 }
@@ -407,15 +432,38 @@ p {
           flex-direction: column;
 }
 
+.skills {
+  background-color: #2e2e35;
+  height: 100vh;
+}
+
 .skillList {
+  width: 100%;
+  margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 20px;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  grid-gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skillBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0px;
 }
 
 .devicon-html5-plain-wordmark,
@@ -427,5 +475,75 @@ p {
 .devicon-sass-original,
 .devicon-firebase-plain-wordmark {
   font-size: 6rem;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition: 0.5s cubic-bezier(0.47, 0.73, 0.53, 1.46);
+  transition: 0.5s cubic-bezier(0.47, 0.73, 0.53, 1.46);
+}
+
+.devicon-html5-plain-wordmark:hover,
+.devicon-css3-plain-wordmark:hover,
+.devicon-javascript-plain:hover,
+.devicon-react-original-wordmark:hover,
+.devicon-github-original-wordmark:hover,
+.devicon-git-plain:hover,
+.devicon-sass-original:hover,
+.devicon-firebase-plain-wordmark:hover {
+  color: #e4aa48;
+  -webkit-transform: scale(1.14);
+          transform: scale(1.14);
+}
+
+@media screen and (min-width: 600px) {
+  .skillList {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .skillList {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.contactMe {
+  height: 80vh;
+}
+
+.contactFlexContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contactMessage {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+
+.contactInner {
+  background-color: #36363E;
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+
+.contactInner a {
+  color: #e4aa48;
+  position: relative;
+}
+
+.far,
+.fab {
+  font-size: 2.2rem;
+  color: #dadada;
+  margin-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */
