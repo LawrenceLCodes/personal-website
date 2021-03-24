@@ -9,6 +9,7 @@
     // grid-template-rows: 2fr;
     // grid-template-columns: 1fr 1fr;
     // grid-template-rows: auto auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -33,6 +34,7 @@
     background-color: $mediumGray;
     padding: 30px 30px;
     border-radius: 20px;
+    align-items: center;
 
     a {
         color: $butterscotch;

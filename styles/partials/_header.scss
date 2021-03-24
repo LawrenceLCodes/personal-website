@@ -2,7 +2,10 @@
     display: flex;
     justify-content: space-between;
     margin: 30px 40px;
+}
 
+.navToggle {
+    display: none;
 }
 
 .navigationList {
@@ -18,3 +21,24 @@
 }
 
 
+@media screen and (max-width: 800px) {
+    .navToggle {
+        align-items: right;
+        display: initial;
+        // position: absolute;
+        cursor: pointer;
+    }
+    
+    .navigationList {
+        flex-direction: column;
+
+    }
+
+    .navigationListItem {
+        display: none;
+    }
+
+    .navigationListToggleShow {
+        display: flex;
+    }
+}

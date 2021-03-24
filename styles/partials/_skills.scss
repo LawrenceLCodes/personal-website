@@ -8,7 +8,7 @@
     width: 100%;
     margin: 0 auto;
     display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
     grid-gap: 30px;
     justify-content: center;
     align-items: center;
@@ -50,14 +50,14 @@
     transform: scale(1.5);
 }
 
-@media screen and (min-width: 600px) {
-    .skillList {
-        grid-template-columns: repeat(2, 1fr);
-    }        
-}
+// @media screen and (min-width: 600px) {
+//     .skillList {
+//         grid-template-columns: repeat(2, 1fr);
+//     }        
+// }
 
-@media screen and (min-width: 900px) {
-    .skillList {
-        grid-template-columns: repeat(4, 1fr);
-    } 
-}
+// @media screen and (min-width: 900px) {
+//     .skillList {
+//         grid-template-columns: repeat(4, 1fr);
+//     } 
+// }

@@ -294,6 +294,7 @@ h2 {
   font-size: 3.5rem;
   line-height: 45px;
   color: #e4aa48;
+  padding: 40px 0px 10px 0px;
 }
 
 h3 {
@@ -379,6 +380,10 @@ p {
   margin: 30px 40px;
 }
 
+.navToggle {
+  display: none;
+}
+
 .navigationList {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -391,6 +396,30 @@ p {
 
 .navigationList a:hover {
   color: #e4aa48;
+}
+
+@media screen and (max-width: 800px) {
+  .navToggle {
+    -webkit-box-align: right;
+        -ms-flex-align: right;
+            align-items: right;
+    display: initial;
+    cursor: pointer;
+  }
+  .navigationList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .navigationListItem {
+    display: none;
+  }
+  .navigationListToggleShow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .home {
@@ -456,11 +485,12 @@ p {
 
 .aboutMe {
   background-color: #36363E;
-  height: 100vh;
   padding: 30px 0px;
 }
 
 .aboutMe img {
+  width: 40%;
+  height: auto;
   border-radius: 35px;
   -webkit-box-shadow: 20px 20px #b8b7b7;
           box-shadow: 20px 20px #b8b7b7;
@@ -480,6 +510,7 @@ p {
 }
 
 .aboutFlexInner {
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,6 +524,7 @@ p {
 
 .resumeButtonContainer {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .resumeButtonContainer a {
@@ -509,17 +541,52 @@ p {
   background-color: #e4aa48;
 }
 
+@media screen and (max-width: 1100px) {
+  .aboutFlexInner {
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .aboutMe img {
+    width: 50%;
+  }
+  .aboutFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .aboutFlexInner {
+    width: 80%;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resumeButtonContainer a {
+    padding: 10px 25px;
+    font-size: 2rem;
+  }
+}
+
 .projectContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #36363E;
   border-radius: 25px;
   margin: 50px 0px;
 }
 
 .projectContainer img {
   border-radius: 25px 0px 0px 25px;
+  width: 50%;
 }
 
 .projectContainer .buttonAnimation {
@@ -527,8 +594,10 @@ p {
 }
 
 .projectInfo {
-  margin: 10px 20px;
-  padding: 10px 10px;
+  width: 50%;
+  padding: 50px 50px;
+  background-color: #36363E;
+  border-radius: 0px 25px 25px 0px;
 }
 
 .skillsUsed {
@@ -551,6 +620,30 @@ p {
   border-radius: 15px;
 }
 
+@media screen and (max-width: 1100px) {
+  .projectContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .projectContainer img {
+    width: 80%;
+    border-radius: 25px 25px 0px 0px;
+  }
+  .projectInfo {
+    margin-top: 0px;
+    width: 80%;
+    border-radius: 0px 0px 25px 25px;
+  }
+}
+
 .skills {
   background-color: #36363E;
   height: 100vh;
@@ -561,6 +654,8 @@ p {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
+  -ms-grid-columns: (minmax(100px, 2fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
   grid-gap: 30px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -613,25 +708,12 @@ p {
           transform: scale(1.5);
 }
 
-@media screen and (min-width: 600px) {
-  .skillList {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .skillList {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
-  }
-}
-
 .contactMe {
   height: 80vh;
 }
 
 .contactFlexContainer {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -665,6 +747,9 @@ p {
   background-color: #36363E;
   padding: 30px 30px;
   border-radius: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .contactInner a {
