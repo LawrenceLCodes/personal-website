@@ -349,6 +349,18 @@ a {
           transform: scaleX(1);
 }
 
+@media screen and (max-width: 430px) {
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  h2 {
+    font-size: 2.8rem;
+  }
+}
+
 html {
   font-size: 62.5%;
 }
@@ -844,6 +856,38 @@ p {
   }
   .contactInner {
     margin: 20px 10px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .emailContainer a {
+    font-size: 2rem;
+  }
+  .contactInner {
+    padding: 20px 20px;
+  }
+  .contactInner a {
+    font-size: 2rem;
+  }
+  .far,
+  .fab {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .contactMessage {
+    width: 90%;
+  }
+  .emailContainer a {
+    font-size: 1.8rem;
+  }
+  .contactInner a {
+    font-size: 1.8rem;
+  }
+  .far,
+  .fab {
+    font-size: 1.8rem;
   }
 }
 

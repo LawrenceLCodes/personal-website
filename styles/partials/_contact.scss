@@ -92,5 +92,51 @@
     }
 }
 
+@media screen and (max-width: 430px) {
+    .emailContainer {
+        a {
+            font-size: 2rem;
+        }
+    }
+    
+    .contactInner {
+        padding: 20px 20px;
+
+        a {
+            font-size: 2rem;
+        }
+    }
+
+    .far,
+    .fab {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contactMessage {
+        width: 90%;
+    }
+
+    .emailContainer {
+        a {
+            font-size: 1.8rem;
+        }
+    }
+
+    .contactInner {
+        a {
+            font-size: 1.8rem;
+        }
+    }
+
+    .far,
+    .fab {
+        font-size: 1.8rem;
+    }
+}
+
+
+
 
 
