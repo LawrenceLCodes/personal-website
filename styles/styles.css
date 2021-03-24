@@ -507,6 +507,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 50px;
 }
 
 .aboutFlexInner {
@@ -573,6 +574,15 @@ p {
   .resumeButtonContainer a {
     padding: 10px 25px;
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .aboutMe img {
+    width: 70%;
+  }
+  .aboutFlexInner {
+    width: 100%;
   }
 }
 
@@ -708,18 +718,14 @@ p {
           transform: scale(1.5);
 }
 
-.contactMe {
-  height: 80vh;
-}
-
 .contactFlexContainer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 50px 0px;
@@ -741,6 +747,15 @@ p {
   margin: 0 auto;
   text-align: center;
   width: 40%;
+}
+
+.emailContainer {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.emailContainer a {
+  color: #e4aa48;
 }
 
 .contactInner {
@@ -765,8 +780,8 @@ p {
 }
 
 .backToTop {
-  -webkit-animation: bounce 2s infinite;
-          animation: bounce 2s infinite;
+  -webkit-animation: bounce 3s infinite;
+          animation: bounce 3s infinite;
   margin: 8% 0;
   text-align: center;
 }

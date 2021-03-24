@@ -18,6 +18,7 @@
 
 .aboutFlex {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .aboutFlexInner {
@@ -78,5 +79,17 @@
             padding: 10px 25px;
             font-size: 2rem;
         }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .aboutMe {
+        img {
+            width: 70%;
+        }
+    }
+    
+    .aboutFlexInner {
+        width: 100%;
     }
 }
