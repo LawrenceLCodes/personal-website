@@ -293,7 +293,7 @@ h2 {
   text-align: center;
   font-size: 3.5rem;
   line-height: 45px;
-  color: #dadada;
+  color: #e4aa48;
 }
 
 h3 {
@@ -457,7 +457,16 @@ p {
 }
 
 .aboutMe img {
-  border-radius: 30%;
+  border-radius: 35px;
+  -webkit-box-shadow: 20px 20px #b8b7b7;
+          box-shadow: 20px 20px #b8b7b7;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.aboutMe img:hover {
+  -webkit-box-shadow: 20px 20px #e4aa48;
+          box-shadow: 20px 20px #e4aa48;
 }
 
 .aboutFlex {
@@ -474,10 +483,30 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-left: 35px;
+  padding: 20px 100px;
+}
+
+.resumeButtonContainer {
+  margin-top: 30px;
+}
+
+.resumeButtonContainer a {
+  background-color: #b8b7b7;
+  color: #2e2e35;
+  padding: 20px 35px;
+  border-radius: 35px;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.resumeButtonContainer a:hover,
+.resumeButtonContainer a:focus {
+  background-color: #e4aa48;
 }
 
 .skills {
-  background-color: #2e2e35;
+  background-color: #36363E;
   height: 100vh;
 }
 
@@ -565,6 +594,7 @@ p {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 50px 0px;
 }
 
 .contactInner:first-child {

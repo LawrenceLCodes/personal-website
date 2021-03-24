@@ -25,58 +25,58 @@ h1 {
 }
 
 h2 {
-  text-align: center;
+    text-align: center;
     font-size: 3.5rem;
     line-height: 45px;
-    color: $offWhite;
+    color: $butterscotch;
 }
 
 h3 {
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: .12em;
-  color: $butterscotch;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: .12em;
+    color: $butterscotch;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-  transition: all 0.3s ease-out 0s;
-  color: $lightGray;
-  font-size: 2.2rem;
-  font-weight: 700;
-  text-decoration: none;
-  list-style: none;
+    transition: all 0.3s ease-out 0s;
+    color: $lightGray;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    list-style: none;
 }
 
 .wrapper {
-  max-width: 1500px;
-  width: 90%;
-  margin: 0 auto;
+    max-width: 1500px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 // underline animation for anchor tags in contact me & likely navigation menu:
 
 .buttonAnimation{
-  position: relative;
+    position: relative;
 }
 
 .buttonAnimation:before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: $butterscotch;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $butterscotch;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
 }
 
 .buttonAnimation:hover:before{
-  visibility: visible;
-  transform: scaleX(1);
+    visibility: visible;
+    transform: scaleX(1);
 }

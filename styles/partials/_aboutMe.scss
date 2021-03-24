@@ -4,7 +4,13 @@
     padding: 30px 0px;
 
     img {
-        border-radius: 30%;
+        border-radius: 35px;
+        box-shadow: 20px 20px $lightGray;
+        transition-duration: 0.7s;
+    }
+
+    img:hover {
+        box-shadow: 20px 20px $butterscotch;
     }
 }
 
@@ -15,4 +21,25 @@
 .aboutFlexInner {
     display: flex;
     flex-direction: column;
+    margin-left: 35px;
+    padding: 20px 100px;
 }
+
+.resumeButtonContainer {
+    margin-top: 30px;
+
+    a {
+        background-color: $lightGray;
+        color: $darkGray;
+        padding: 20px 35px;
+        border-radius: 35px;
+        transition-duration: 0.7s;
+    }
+
+    a:hover,
+    a:focus {
+        background-color: $butterscotch;
+    }
+
+}
+
