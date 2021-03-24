@@ -27,7 +27,7 @@
 .contactMessage {
     margin: 0 auto;
     text-align: center;
-    width: 40%;
+    width: 60%;
 }
 
 .emailContainer {
@@ -75,10 +75,20 @@
         transform: translateY(0);
     }
     40% {
-        transform: translateY(-30px);
+        transform: translateY(30px);
     }
     60% {
-        transform: translateY(-15px);
+        transform: translateY(15px);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .contactMessage {
+        width: 80%;
+    }
+    
+    .contactInner {
+        margin: 20px 10px;
     }
 }
 

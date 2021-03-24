@@ -445,8 +445,8 @@ p {
 }
 
 .bounce {
-  -webkit-animation: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
 }
 
 .fa-arrow-down {
@@ -764,7 +764,7 @@ p {
 .contactMessage {
   margin: 0 auto;
   text-align: center;
-  width: 40%;
+  width: 60%;
 }
 
 .emailContainer {
@@ -814,12 +814,12 @@ p {
             transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
   60% {
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
   }
 }
 
@@ -829,12 +829,21 @@ p {
             transform: translateY(0);
   }
   40% {
-    -webkit-transform: translateY(-30px);
-            transform: translateY(-30px);
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
   60% {
-    -webkit-transform: translateY(-15px);
-            transform: translateY(-15px);
+    -webkit-transform: translateY(15px);
+            transform: translateY(15px);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .contactMessage {
+    width: 80%;
+  }
+  .contactInner {
+    margin: 20px 10px;
   }
 }
 
