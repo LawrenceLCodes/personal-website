@@ -1,0 +1,35 @@
+.projectContainer {
+    display: flex;
+    background-color: $mediumGray;
+    border-radius: 25px;
+    margin: 50px 0px;
+
+    img {
+        border-radius: 25px 0px 0px 25px;
+    }
+
+    .buttonAnimation {
+        margin: 10px 20px 10px 0px;
+
+    }
+}
+
+.projectInfo {
+    margin: 10px 20px;
+    padding: 10px 10px;
+}
+
+.skillsUsed {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    p {
+        margin: 10px 15px 10px 0px;
+        background-color: $butterscotch;
+        color: $darkGray;
+        padding: 10px 10px;
+        border-radius: 15px;
+    }
+}

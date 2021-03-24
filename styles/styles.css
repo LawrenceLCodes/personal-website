@@ -389,6 +389,10 @@ p {
   margin: 0px 15px;
 }
 
+.navigationList a:hover {
+  color: #e4aa48;
+}
+
 .home {
   height: 80vh;
   display: -webkit-box;
@@ -503,6 +507,48 @@ p {
 .resumeButtonContainer a:hover,
 .resumeButtonContainer a:focus {
   background-color: #e4aa48;
+}
+
+.projectContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #36363E;
+  border-radius: 25px;
+  margin: 50px 0px;
+}
+
+.projectContainer img {
+  border-radius: 25px 0px 0px 25px;
+}
+
+.projectContainer .buttonAnimation {
+  margin: 10px 20px 10px 0px;
+}
+
+.projectInfo {
+  margin: 10px 20px;
+  padding: 10px 10px;
+}
+
+.skillsUsed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.skillsUsed p {
+  margin: 10px 15px 10px 0px;
+  background-color: #e4aa48;
+  color: #2e2e35;
+  padding: 10px 10px;
+  border-radius: 15px;
 }
 
 .skills {

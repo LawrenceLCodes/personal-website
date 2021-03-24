@@ -8,14 +8,14 @@ $offWhite: #dadada;
 $butterscotch: #e4aa48;
 
 html {
-  scroll-behavior: smooth;
-  transition: 1 ease;
+    scroll-behavior: smooth;
+    transition: 1 ease;
 }
 
 body {
-  max-width: 1920px;
-  background-color: $darkGray;
-  color: $offWhite;
+    max-width: 1920px;
+    background-color: $darkGray;
+    color: $offWhite;
 }
 
 h1 {
@@ -29,6 +29,7 @@ h2 {
     font-size: 3.5rem;
     line-height: 45px;
     color: $butterscotch;
+
 }
 
 h3 {
