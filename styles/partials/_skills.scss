@@ -1,6 +1,10 @@
 .skills {
     background-color: $mediumGray;
-    height: 100vh;
+    // height: 50vh;
+}
+
+.skillsContainer {
+    padding: 20px 0px 50px 0px;
 }
 
 // Grid Container
@@ -8,8 +12,9 @@
     width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
-    grid-gap: 30px;
+    // grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -48,6 +53,19 @@
 .devicon-firebase-plain-wordmark:hover {
     color: $butterscotch;
     transform: scale(1.5);
+}
+
+@media screen and (max-width: 650px) {
+    .skillList {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .skillList {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
 }
 
 // @media screen and (min-width: 600px) {

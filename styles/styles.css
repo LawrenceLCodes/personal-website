@@ -656,7 +656,10 @@ p {
 
 .skills {
   background-color: #36363E;
-  height: 100vh;
+}
+
+.skillsContainer {
+  padding: 20px 0px 50px 0px;
 }
 
 .skillList {
@@ -664,9 +667,9 @@ p {
   margin: 0 auto;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(100px, 2fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
-  grid-gap: 30px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -716,6 +719,21 @@ p {
   color: #e4aa48;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
+}
+
+@media screen and (max-width: 650px) {
+  .skillList {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .skillList {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 .contactFlexContainer {
