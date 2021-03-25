@@ -34,3 +34,9 @@
         transform: translateY(-15px);
     }
 }
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
