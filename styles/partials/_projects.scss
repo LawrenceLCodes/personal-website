@@ -53,3 +53,56 @@
         border-radius: 0px 0px 25px 25px;
     }
 }
+
+@media screen and (max-width: 880px) {
+    .projectInfo {
+        padding-top: 10px;
+
+        h3 {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projectContainer {
+        img {
+            width: 90%;
+        }
+    }
+    
+    .projectInfo {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .projectContainer {
+        img {
+            width: 100%;
+        }
+    }
+    
+    .projectInfo {
+        width: 100%;
+        
+        h3 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+        a {
+            font-size: 2rem;
+        }
+    }
+
+    .skillsUsed {
+        p {
+            padding: 5px 5px;
+            font-size: 1.6rem;
+        }
+    }
+}
