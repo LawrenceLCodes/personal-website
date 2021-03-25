@@ -461,6 +461,8 @@ h1 {
 }
 
 .home h2 {
+  padding: 2px 0px;
+  margin: 0 auto;
   background: 50% 100%/50% 50% no-repeat radial-gradient(ellipse at bottom, #e4aa48, transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
@@ -501,7 +503,7 @@ h1 {
 
 .arrow {
   text-align: center;
-  margin: 8% 0;
+  margin: 10% 0px 0px 0px;
 }
 
 .bounce {
@@ -543,9 +545,30 @@ h1 {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
+  }
+  .home h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  .home h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .home h2 {
+    font-size: 2rem;
   }
 }
 
