@@ -294,7 +294,7 @@ h2 {
   font-size: 3.5rem;
   line-height: 45px;
   color: #e4aa48;
-  padding: 40px 0px 10px 0px;
+  padding: 30px 0px 20px 0px;
 }
 
 h3 {
@@ -415,7 +415,6 @@ p {
     -webkit-box-align: right;
         -ms-flex-align: right;
             align-items: right;
-    display: initial;
     cursor: pointer;
   }
   .navigationList {
@@ -587,6 +586,7 @@ h1 {
           transition-duration: 0.7s;
   -o-object-fit: cover;
      object-fit: cover;
+  margin-bottom: 30px;
 }
 
 .aboutMe img:hover {
@@ -648,6 +648,7 @@ h1 {
 @media screen and (max-width: 750px) {
   .aboutMe img {
     width: 50%;
+    margin-bottom: 0px;
   }
   .aboutFlex {
     -webkit-box-orient: vertical;
