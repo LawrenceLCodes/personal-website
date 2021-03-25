@@ -507,7 +507,7 @@ p {
 }
 
 .aboutMe img {
-  width: 40%;
+  width: 30%;
   height: auto;
   border-radius: 35px;
   -webkit-box-shadow: 20px 20px #b8b7b7;
@@ -563,6 +563,12 @@ p {
 @media screen and (max-width: 1100px) {
   .aboutFlexInner {
     padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .aboutMe img {
+    width: 45%;
   }
 }
 
