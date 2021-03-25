@@ -585,6 +585,8 @@ h1 {
           box-shadow: 20px 20px #b8b7b7;
   -webkit-transition-duration: 0.7s;
           transition-duration: 0.7s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .aboutMe img:hover {
@@ -639,7 +641,7 @@ h1 {
 
 @media screen and (max-width: 930px) {
   .aboutMe img {
-    width: 45%;
+    width: 40%;
   }
 }
 
@@ -693,6 +695,8 @@ h1 {
 .projectContainer img {
   border-radius: 25px 0px 0px 25px;
   width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .projectContainer .buttonAnimation {

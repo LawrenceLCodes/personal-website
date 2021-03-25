@@ -9,6 +9,7 @@
         border-radius: 35px;
         box-shadow: 20px 20px $lightGray;
         transition-duration: 0.7s;
+        object-fit: cover;
     }
 
     img:hover {
@@ -57,7 +58,7 @@
 @media screen and (max-width: 930px) {
     .aboutMe {
         img {
-            width: 45%;
+            width: 40%;
         }
     }
 }
