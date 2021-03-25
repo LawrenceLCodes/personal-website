@@ -44,6 +44,8 @@
 // }
 // document.addEventListener("click", closeSubmenu, false);
 
+AOS.init();
+
 //tsParticles for background:
 const particles = {
     "fpsLimit": 60,
