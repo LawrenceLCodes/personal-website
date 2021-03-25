@@ -759,6 +759,8 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border: 5px solid #e4aa48;
+  border-radius: 35px;
 }
 
 .skillBox {
@@ -773,7 +775,7 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px 0px;
+  margin: 40px 0px;
 }
 
 .devicon-html5-plain-wordmark,
