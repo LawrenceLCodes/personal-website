@@ -30,7 +30,8 @@
     width: 60%;
 }
 
-.emailContainer {
+.emailContainer,
+.calendlyContainer {
     margin: 20px 0px;
     text-align: center;
 
@@ -38,6 +39,7 @@
         color: $butterscotch;
     }
 }
+
 
 .contactInner {
     background-color: $mediumGray;

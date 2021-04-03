@@ -196,13 +196,33 @@
         <section class="contactMe" id="contactMe">
             <div class="contactMeContainer wrapper">
                 <h2>How To Contact Me</h2>
-                <p class="contactMessage">Thank you for taking some time out of your day to visit! Please do not hesitate to reach me by Email or LinkedIn. I look forward to hearing from you!</p>
+                <p class="contactMessage">Thank you for taking some time out of your day to visit! Please do not hesitate to message me by Email or LinkedIn. Alternatively, you can schedule a virtual meeting using Calendly. I look forward to hearing from you!</p>
 
                 <div class="emailContainer">
                     <div class="emailContainerInner">
                         <i class="far fa-envelope"></i><a class="buttonAnimation" href="mailto:lawrence.lee77@gmail.com">lawrence.lee77@gmail.com</a>
                     </div>
                 </div>
+
+                <!-- Calendly link widget begins -->
+                <div class=calendlyContainer>
+                    <i class="far fa-calendar-alt"></i>
+                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a class="buttonAnimation" href=""
+                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=dadada&text_color=000000&primary_color=e4aa48'});return false;">Calendly</a>
+                </div>
+                <!-- Calendly link widget ends -->
+
+
+                <!-- Calendly badge widget begins -->
+                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                <script
+                    type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=dadada&text_color=000000&primary_color=e4aa48', text: 'Lets Chat!', color: '#e4aa48', textColor: '#000000', branding: true }); }</script>
+                <!-- Calendly badge widget ends -->
+
+
                 <div class="contactFlexContainer">
                     <div class=contactOuter>
                         <div class="contactInner">

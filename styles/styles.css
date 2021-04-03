@@ -962,12 +962,14 @@ h1 {
   width: 60%;
 }
 
-.emailContainer {
+.emailContainer,
+.calendlyContainer {
   margin: 20px 0px;
   text-align: center;
 }
 
-.emailContainer a {
+.emailContainer a,
+.calendlyContainer a {
   color: #e4aa48;
 }
 
