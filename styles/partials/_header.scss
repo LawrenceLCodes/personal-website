@@ -54,3 +54,11 @@
         }
     }
 }
+
+@media screen and (max-width: 375px) {
+    .headerArea {
+        img {
+            width: 40%;
+        }
+    }
+}

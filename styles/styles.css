@@ -443,6 +443,12 @@ p {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .headerArea img {
+    width: 40%;
+  }
+}
+
 .home {
   height: 80vh;
   display: -webkit-box;
