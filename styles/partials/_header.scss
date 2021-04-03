@@ -2,6 +2,10 @@
     display: flex;
     justify-content: space-between;
     margin: 30px 40px;
+
+    img {
+        width: 55%;
+    }
 }
 
 .navToggle {
@@ -40,5 +44,13 @@
 
     .navigationListToggleShow {
         display: flex;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .navigationList {
+        a {
+            font-size: 1.8rem;
+        }
     }
 }
