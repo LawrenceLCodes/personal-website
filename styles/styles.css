@@ -734,6 +734,10 @@ h1 {
      object-fit: cover;
 }
 
+.projectContainer a {
+  color: #e4aa48;
+}
+
 .projectContainer .buttonAnimation {
   margin: 10px 20px 10px 0px;
 }
@@ -759,8 +763,8 @@ h1 {
 
 .skillsUsed p {
   margin: 10px 15px 10px 0px;
-  background-color: #e4aa48;
-  color: #2e2e35;
+  border: 5px solid #e4aa48;
+  color: #dadada;
   padding: 10px 10px;
   border-radius: 15px;
 }
@@ -869,7 +873,7 @@ h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 5px solid #e4aa48;
+  border: 8px solid #e4aa48;
   border-radius: 35px;
 }
 

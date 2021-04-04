@@ -17,6 +17,10 @@
         object-fit: cover;
     }
 
+    a {
+        color: $butterscotch;
+    }
+
     .buttonAnimation {
         margin: 10px 20px 10px 0px;
     }
@@ -37,8 +41,9 @@
 
     p {
         margin: 10px 15px 10px 0px;
-        background-color: $butterscotch;
-        color: $darkGray;
+        // background-color: $butterscotch;
+        border: 5px solid $butterscotch;
+        color: $offWhite;
         padding: 10px 10px;
         border-radius: 15px;
     }
