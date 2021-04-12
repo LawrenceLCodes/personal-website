@@ -1,241 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-    <link rel="shortcut icon" href="./assets/lwlresizedlogo3.png">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"
+    />
+    <link rel="shortcut icon" href="./assets/lwlresizedlogo3.png" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>LawrenceLCodes</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- possible future for ts OR particles.js -->
     <!-- <div id="tsparticles" class="tsParticles">
         <canvas class="tsparticles" style="width: 100%; height: 100%;"></canvas>
     </div> -->
     <!-- Logo image and navigation menu -->
     <header class="headerArea">
-        <picture class="logoImage">
-            <a href="/index.html">
-                <img src="assets/lwlresizedlogo3.png" alt="Lawrence's Logo">
-            </a>
-        </picture>
+      <picture class="logoImage">
+        <a href="/index.html">
+          <img src="assets/lwlresizedlogo3.png" alt="Lawrence's Logo" />
+        </a>
+      </picture>
 
-        <nav class="mobileMenu">
-            <div class="navToggle">
-                <i class="fas fa-bars fa-4x"></i>
-            </div>
-            <ul class="navigationList">
-                <li class="navigationListItem"><a href="index.html#aboutMe">About Me</a></li>
-                <li class="navigationListItem"><a href="index.html#skills">Skills</a></li>
-                <li class="navigationListItem"><a href="index.html#projects">Projects</a></li>
-                <li class="navigationListItem"><a href="index.html#contactMe">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="mobileMenu">
+        <div class="navToggle">
+          <i class="fas fa-bars fa-4x"></i>
+        </div>
+        <ul class="navigationList">
+          <li class="navigationListItem">
+            <a href="index.html#aboutMe">About Me</a>
+          </li>
+          <li class="navigationListItem">
+            <a href="index.html#skills">Skills</a>
+          </li>
+          <li class="navigationListItem">
+            <a href="index.html#projects">Projects</a>
+          </li>
+          <li class="navigationListItem">
+            <a href="index.html#contactMe">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- Logo image and navigation menu ends -->
 
     <main>
-        <!-- Home landing page for site -->
-        <section class="home">
-            <h1 class="myName" id="myName">Lawrence Lee</h1>
-            <h2>Front-End</h2>
-            <h2>Web Developer</h2>
+      <!-- Home landing page for site -->
+      <section class="home">
+        <h1 class="myName" id="myName">Lawrence Lee</h1>
+        <h2>Front-End</h2>
+        <h2>Web Developer</h2>
 
+        <div class="arrow bounce">
+          <a class="fa fa-arrow-down fa-4x" href="#aboutMe"></a>
+        </div>
+        <!-- <div id="particles-js"></div> -->
+      </section>
+      <!-- Home/main landing page for site ends -->
 
-            <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-4x" href="#aboutMe"></a>
+      <!-- About Me section begins -->
+      <section class="aboutMe" id="aboutMe">
+        <div class="aboutContainer wrapper">
+          <div class="headerContainer">
+            <h2>About Me</h2>
+          </div>
+          <div class="aboutFlex">
+            <img
+              src="./assets/Lawrence101.png"
+              alt="Lawrence at Niagara Falls protrait image"
+            />
+
+            <div class="aboutFlexInner">
+              <p>
+                Former recruiter & certified human resources professional (CHRP)
+                turned front-end web developer based in Toronto, Ontario. I am a
+                lifelong learner with a desire to create web experiences that
+                are accessible to everyone.
+              </p>
+
+              <p>
+                In my spare time you will find me learning about the latest
+                developments in technology, playing video games and building
+                model kits.
+              </p>
+
+              <p>
+                I look forward to refining my skills with the right
+                organization. Let's work together and build some excellent
+                projects!
+              </p>
+
+              <div class="resumeButtonContainer">
+                <a
+                  class="resumeButton"
+                  href="assets/LawrenceLee-DarkResume.pdf"
+                  alt="Link to Lawrence's resume in PDF form"
+                  >My Resume</a
+                >
+              </div>
             </div>
-            <!-- <div id="particles-js"></div> -->
-        </section>
-        <!-- Home/main landing page for site ends -->
-    
-        <!-- About Me section begins -->
-        <section class="aboutMe" id="aboutMe">
-            <div class="aboutContainer wrapper">
-                <div class="headerContainer">
-                    <h2>About Me</h2>
-                </div>
-                <div class="aboutFlex">
-                    <img src="./assets/Lawrence101.png" alt="Lawrence at Niagara Falls protrait image">
+          </div>
+        </div>
+      </section>
+      <!-- About me section ends -->
 
-                    <div class="aboutFlexInner">
-                        <P>Former recruiter & certified human resources professional (CHRP) turned front-end web developer based in Toronto, Ontario. I am a lifelong learner with a desire to create web experiences that are accessible to everyone.</P>
-    
-                        <P>In my spare time you will find me learning about the latest developments in technology, playing video games and building model kits.</P>
-
-                        <p>I look forward to refining my skills with the right organization. Let's work together and build some excellent projects!</p>
-
-                        <div class="resumeButtonContainer">
-                            <a class="resumeButton" href="assets/LawrenceLee-DarkResume.pdf" alt="Link to Lawrence's resume in PDF form">My
-                                Resume</a>
-                        </div>
-                    </div>
-                </div>
+      <!-- Skills and languages section begins -->
+      <section class="skills" id="skills">
+        <div class="skillsContainer wrapper">
+          <h2>Skills</h2>
+          <div class="skillList">
+            <div class="skillBox">
+              <i class="devicon-html5-plain-wordmark"></i>
             </div>
-        </section>
-        <!-- About me section ends -->
-
-        <!-- Skills and languages section begins -->
-        <section class="skills" id="skills">
-            <div class="skillsContainer wrapper">
-                <h2>Skills</h2>
-                <div class="skillList">
-                    <div class="skillBox">
-                        <i class="devicon-html5-plain-wordmark"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-css3-plain-wordmark"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-javascript-plain"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-react-original-wordmark"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-github-original-wordmark"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-git-plain"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-sass-original"></i>
-                    </div>
-                    <div class="skillBox">
-                        <i class="devicon-firebase-plain-wordmark"></i>
-                    </div>
-                </div>
+            <div class="skillBox">
+              <i class="devicon-css3-plain-wordmark"></i>
             </div>
-        </section>
-        <!-- Skills and languages section ends -->
-
-
-        <!-- Projects section begins -->
-        <section class="projects" id="projects">
-            <div class="portfolioContainer wrapper">
-                <h2>Projects</h2>
-
-                <div class="projectContainer">
-                    <img src="./assets/nextBingeRegular.png" alt="Screenshot of next binge TV show list application">
-                
-                    <div class="projectInfo">
-                        <h3>nextBinge</h3>
-                        <p>A responsive application that displays a location's forecast based on the user's desired city. Built using data obtained from OpenWeatherMap API.</p>
-                
-                        <div class="skillsUsed">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>SCSS</p>
-                            <p>JavaScript</p>
-                            <p>React</p>
-                            <p>Firebase</p>
-                            <p>Team Programming</p>
-                        </div>
-                
-                        <a class="buttonAnimation" href="https://nextbinge.netlify.app/">See it live!</a>
-                
-                        <a class="buttonAnimation" href="https://github.com/nextBinge-squad/nextBinge">Github</a>
-                    </div>
-                </div>
-
-                <div class="projectContainer">
-                    <img src="./assets/weatherAppRegular.png" alt="Screenshot of my daily weather application">
-                
-                    <div class="projectInfo">
-                        <h3>Today's Weather</h3>
-                        <p>A responsive application that displays a location's forecast based on the user's desired city. Built using data obtained from OpenWeatherMap API.</p>
-                
-                        <div class="skillsUsed">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>JavaScript</p>
-                            <p>React</p>
-                        </div>
-                
-                        <a class="buttonAnimation" href="https://lawrences-weather.netlify.app/">See it live!</a>
-                
-                        <a class="buttonAnimation" href="https://github.com/LawrenceLCodes/LawrenceL-Project3-Weather-App-React">Github</a>
-                    </div>
-                </div>
-
-
-                <div class="projectContainer">
-                    <img src="./assets/pokeSelectorRegular.png" alt="Screenshot of the pokeSelector application">
-
-                    <div class="projectInfo">
-                        <h3>pokeSelector</h3>
-                        <p>A responsive application that displays a Pokemon randomly or using a search field. Built using data obtained from PokeAPI.</p>
-
-                        <div class="skillsUsed">
-                            <p>HTML5</p>
-                            <p>CSS3</p>
-                            <p>SCSS</p>
-                            <p>JavaScript</p>
-                            <p>Pair Programming</p>
-                        </div>
-
-                        <a class="buttonAnimation" href="https://pokeselector.netlify.app/">See it live!</a>
-        
-                        <a class="buttonAnimation" href="https://github.com/Glen-AllanSJ-LawrenceL/pokeSelector">Github</a>
-                    </div>
-                </div>               
+            <div class="skillBox">
+              <i class="devicon-javascript-plain"></i>
             </div>
-        </section>
-        <!-- Portfolio section ends -->
+            <div class="skillBox">
+              <i class="devicon-react-original-wordmark"></i>
+            </div>
+            <div class="skillBox">
+              <i class="devicon-github-original-wordmark"></i>
+            </div>
+            <div class="skillBox">
+              <i class="devicon-git-plain"></i>
+            </div>
+            <div class="skillBox">
+              <i class="devicon-sass-original"></i>
+            </div>
+            <div class="skillBox">
+              <i class="devicon-firebase-plain-wordmark"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Skills and languages section ends -->
 
-        <!-- Contact section begins -->
-        <section class="contactMe" id="contactMe">
-            <div class="contactMeContainer wrapper">
-                <h2>How To Contact Me</h2>
-                <p class="contactMessage">Thank you for taking some time out of your day to visit! Please do not hesitate to message me by Email or LinkedIn. Alternatively, you can schedule a virtual meeting using Calendly. I look forward to hearing from you!</p>
+      <!-- Projects section begins -->
+      <section class="projects" id="projects">
+        <div class="portfolioContainer wrapper">
+          <h2>Projects</h2>
 
-                <div class="emailContainer">
-                    <div class="emailContainerInner">
-                        <i class="far fa-envelope"></i><a class="buttonAnimation" href="mailto:lawrence.lee77@gmail.com">lawrence.lee77@gmail.com</a>
-                    </div>
-                </div>
+          <div class="projectContainer">
+            <img
+              src="./assets/nextBingeRegular.png"
+              alt="Screenshot of next binge TV show list application"
+            />
 
-                <!-- Calendly link widget begins -->
-                <div class=calendlyContainer>
-                    <i class="far fa-calendar-alt"></i>
-                    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                    <a class="buttonAnimation" href=""
-                        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=18181a&text_color=ffffff&primary_color=e4aa48'});return false;">Calendly</a>
-                </div>
-                <!-- Calendly link widget ends -->
+            <div class="projectInfo">
+              <h3>nextBinge</h3>
+              <p>
+                A responsive application that displays a location's forecast
+                based on the user's desired city. Built using data obtained from
+                OpenWeatherMap API.
+              </p>
 
+              <div class="skillsUsed">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>SCSS</p>
+                <p>JavaScript</p>
+                <p>React</p>
+                <p>Firebase</p>
+                <p>Team Programming</p>
+              </div>
 
-                <!-- Calendly badge widget begins -->
-                <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                <script
-                    type="text/javascript">window.onload = function () { Calendly.initBadgeWidget({ url: 'https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=18181a&text_color=ffffff&primary_color=e4aa48', text: "Let's Chat!", color: '#e4aa48', textColor: '#18181a', branding: true }); }</script>
-                <!-- Calendly badge widget ends -->
+              <a class="buttonAnimation" href="https://nextbinge.netlify.app/"
+                >See it live!</a
+              >
 
+              <a
+                class="buttonAnimation"
+                href="https://github.com/nextBinge-squad/nextBinge"
+                >Github</a
+              >
+            </div>
+          </div>
 
-                <div class="contactFlexContainer">
-                    <div class=contactOuter>
-                        <div class="contactInner">
-                            <i class="fab fa-linkedin-in"></i><a class="buttonAnimation" href="https://www.linkedin.com/in/lawrencelee7/">LinkedIn</a>
-                        </div>
-                    </div>
+          <div class="projectContainer">
+            <img
+              src="./assets/weatherAppRegular.png"
+              alt="Screenshot of my daily weather application"
+            />
 
-                    <div class="contactOuter">
-                        <div class="contactInner">
-                            <i class="fab fa-twitter"></i><a class="buttonAnimation" href="https://twitter.com/LawrenceLCodes">Twitter</a>
-                        </div>
-                    </div>
+            <div class="projectInfo">
+              <h3>Today's Weather</h3>
+              <p>
+                A responsive application that displays a location's forecast
+                based on the user's desired city. Built using data obtained from
+                OpenWeatherMap API.
+              </p>
 
-                    <div class=contactOuter>
-                        <div class="contactInner">
-                            <i class="fab fa-github"></i><a class="buttonAnimation" href="https://github.com/LawrenceLCodes">GitHub</a>
-                        </div>
-                    </div>
-        
-                    <!-- <div class="socialIcons">
+              <div class="skillsUsed">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>JavaScript</p>
+                <p>React</p>
+              </div>
+
+              <a
+                class="buttonAnimation"
+                href="https://lawrences-weather.netlify.app/"
+                >See it live!</a
+              >
+
+              <a
+                class="buttonAnimation"
+                href="https://github.com/LawrenceLCodes/LawrenceL-Project3-Weather-App-React"
+                >Github</a
+              >
+            </div>
+          </div>
+
+          <div class="projectContainer">
+            <img
+              src="./assets/pokeSelectorRegular.png"
+              alt="Screenshot of the pokeSelector application"
+            />
+
+            <div class="projectInfo">
+              <h3>pokeSelector</h3>
+              <p>
+                A responsive application that displays a Pokemon randomly or
+                using a search field. Built using data obtained from PokeAPI.
+              </p>
+
+              <div class="skillsUsed">
+                <p>HTML5</p>
+                <p>CSS3</p>
+                <p>SCSS</p>
+                <p>JavaScript</p>
+                <p>Pair Programming</p>
+              </div>
+
+              <a
+                class="buttonAnimation"
+                href="https://pokeselector.netlify.app/"
+                >See it live!</a
+              >
+
+              <a
+                class="buttonAnimation"
+                href="https://github.com/Glen-AllanSJ-LawrenceL/pokeSelector"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio section ends -->
+
+      <!-- Contact section begins -->
+      <section class="contactMe" id="contactMe">
+        <div class="contactMeContainer wrapper">
+          <h2>How To Contact Me</h2>
+          <p class="contactMessage">
+            Thank you for taking some time out of your day to visit! Please do
+            not hesitate to message me by Email or LinkedIn. Alternatively, you
+            can schedule a virtual meeting using Calendly. I look forward to
+            hearing from you!
+          </p>
+
+          <div class="emailContainer">
+            <div class="emailContainerInner">
+              <i class="far fa-envelope"></i
+              ><a class="buttonAnimation" href="mailto:lawrence.lee77@gmail.com"
+                >lawrence.lee77@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <!-- Calendly link widget begins -->
+          <div class="calendlyContainer">
+            <i class="far fa-calendar-alt"></i>
+            <link
+              href="https://assets.calendly.com/assets/external/widget.css"
+              rel="stylesheet"
+            />
+            <script
+              src="https://assets.calendly.com/assets/external/widget.js"
+              type="text/javascript"
+              async
+            ></script>
+            <a
+              class="buttonAnimation"
+              href=""
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=18181a&text_color=ffffff&primary_color=e4aa48'});return false;"
+              >Calendly</a
+            >
+          </div>
+          <!-- Calendly link widget ends -->
+
+          <!-- Calendly badge widget begins -->
+          <link
+            href="https://assets.calendly.com/assets/external/widget.css"
+            rel="stylesheet"
+          />
+          <script
+            src="https://assets.calendly.com/assets/external/widget.js"
+            type="text/javascript"
+            async
+          ></script>
+          <script type="text/javascript">
+            window.onload = function () {
+              Calendly.initBadgeWidget({
+                url:
+                  "https://calendly.com/lawrencelcodes?hide_gdpr_banner=1&background_color=18181a&text_color=ffffff&primary_color=e4aa48",
+                text: "Let's Chat!",
+                color: "#e4aa48",
+                textColor: "#18181a",
+                branding: true,
+              });
+            };
+          </script>
+          <!-- Calendly badge widget ends -->
+
+          <div class="contactFlexContainer">
+            <div class="contactOuter">
+              <div class="contactInner">
+                <i class="fab fa-linkedin-in"></i
+                ><a
+                  class="buttonAnimation"
+                  href="https://www.linkedin.com/in/lawrencelee7/"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+
+            <div class="contactOuter">
+              <div class="contactInner">
+                <i class="fab fa-twitter"></i
+                ><a
+                  class="buttonAnimation"
+                  href="https://twitter.com/LawrenceLCodes"
+                  >Twitter</a
+                >
+              </div>
+            </div>
+
+            <div class="contactOuter">
+              <div class="contactInner">
+                <i class="fab fa-github"></i
+                ><a
+                  class="buttonAnimation"
+                  href="https://github.com/LawrenceLCodes"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+
+            <!-- <div class="socialIcons">
                         <a href="https://www.linkedin.com/in/lawrencelee7/"><i class="fab fa-linkedin-in"></i></a>
         
                         <a href="https://twitter.com/LawrenceLCodes"><i class="fab fa-twitter"></i></a>
@@ -243,21 +362,21 @@
         
                         <a href="https://github.com/LawrenceLCodes"><i class="fab fa-github"></i></a>
                     </div> -->
-                </div>
+          </div>
 
-                <div class="backToTop">
-                    <a href="#"><i class="fas fa-angle-double-up fa-2x"></i></a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact section ends -->
+          <div class="backToTop">
+            <a href="#"><i class="fas fa-angle-double-up fa-2x"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section ends -->
     </main>
 
     <!-- Footer section & back to home button begins -->
     <footer class="footer">
-        <div class="developedBy">
-            <p>Developed by Lawrence Lee 2021</p>
-        </div>
+      <div class="developedBy">
+        <p>Developed by Lawrence Lee 2021</p>
+      </div>
     </footer>
     <!-- Footer section & back to home button ends -->
 
@@ -267,5 +386,5 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.18.1/tsparticles.min.js"
         integrity="sha512-PYHWDEuXOTJ9MZ+/QHqkbgiEYZ+LImQv3i/9NyYOABFvK37e4q4Wg7aQDN1JpoGiEu1TYZh6JMrZluZox2gbDA=="
         crossorigin="anonymous"></script> -->
-</body>
+  </body>
 </html>
