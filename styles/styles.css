@@ -881,8 +881,10 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -895,11 +897,15 @@ h1 {
 .devicon-html5-plain-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-javascript-plain,
-.devicon-react-original-wordmark,
-.devicon-github-original-wordmark,
+.devicon-react-original,
+.devicon-github-original,
 .devicon-git-plain,
 .devicon-sass-original,
-.devicon-firebase-plain-wordmark {
+.devicon-firebase-plain,
+.devicon-visualstudio-plain,
+.fa-mobile-alt,
+.fa-universal-access,
+.fa-terminal {
   font-size: 6rem;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s;
@@ -910,11 +916,15 @@ h1 {
 .devicon-html5-plain-wordmark:hover,
 .devicon-css3-plain-wordmark:hover,
 .devicon-javascript-plain:hover,
-.devicon-react-original-wordmark:hover,
-.devicon-github-original-wordmark:hover,
+.devicon-react-original:hover,
+.devicon-github-original:hover,
 .devicon-git-plain:hover,
 .devicon-sass-original:hover,
-.devicon-firebase-plain-wordmark:hover {
+.devicon-firebase-plain:hover,
+.devicon-visualstudio-plain:hover,
+.fa-mobile-alt:hover,
+.fa-universal-access:hover,
+.fa-terminal:hover {
   color: #e4aa48;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);

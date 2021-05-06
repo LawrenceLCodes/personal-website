@@ -1,83 +1,91 @@
 .skills {
-    background-color: $darkGray;
-    // height: 50vh;
+  background-color: $darkGray;
+  // height: 50vh;
 }
 
 .skillsContainer {
-    padding: 20px 0px 50px 0px;
+  padding: 20px 0px 50px 0px;
 }
 
 // Grid Container
 .skillList {
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    // grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
-    border: 8px solid $butterscotch;
-    border-radius: 35px;
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  // grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid $butterscotch;
+  border-radius: 35px;
 }
 
 // Grid Items:
 .skillBox {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  //   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
 }
 
 // Styling for devicons
 .devicon-html5-plain-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-javascript-plain,
-.devicon-react-original-wordmark,
-.devicon-github-original-wordmark,
+.devicon-react-original,
+.devicon-github-original,
 .devicon-git-plain,
 .devicon-sass-original,
-.devicon-firebase-plain-wordmark
- {
-    font-size: 6rem;
-    transition-duration: 0.5s;
-    transition: 0.5s cubic-bezier(.47,.73,.53,1.46);
+.devicon-firebase-plain,
+.devicon-visualstudio-plain,
+.fa-mobile-alt,
+.fa-universal-access,
+.fa-terminal {
+  font-size: 6rem;
+  transition-duration: 0.5s;
+  transition: 0.5s cubic-bezier(0.47, 0.73, 0.53, 1.46);
 }
 
 .devicon-html5-plain-wordmark:hover,
 .devicon-css3-plain-wordmark:hover,
 .devicon-javascript-plain:hover,
-.devicon-react-original-wordmark:hover,
-.devicon-github-original-wordmark:hover,
+.devicon-react-original:hover,
+.devicon-github-original:hover,
 .devicon-git-plain:hover,
 .devicon-sass-original:hover,
-.devicon-firebase-plain-wordmark:hover {
-    color: $butterscotch;
-    transform: scale(1.5);
+.devicon-firebase-plain:hover,
+.devicon-visualstudio-plain:hover,
+.fa-mobile-alt:hover,
+.fa-universal-access:hover,
+.fa-terminal:hover {
+  color: $butterscotch;
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 650px) {
-    .skillList {
-        grid-template-columns: repeat(3, 1fr);
-    }
+  .skillList {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .skillList {
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
+  .skillList {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
 }
 
 // @media screen and (min-width: 600px) {
 //     .skillList {
 //         grid-template-columns: repeat(2, 1fr);
-//     }        
+//     }
 // }
 
 // @media screen and (min-width: 900px) {
 //     .skillList {
 //         grid-template-columns: repeat(4, 1fr);
-//     } 
+//     }
 // }
