@@ -26,9 +26,9 @@ I am a Frontend Web Developer <img src="https://media.giphy.com/media/WUlplcMpOC
 
 - :seedling: Focusing on improving my skills with JavaScript.
 
-- :zap: In my free time, I play video games (love the Mass Effect franchise) and learn about technology in general.
+- :zap: In my free time, I play video games (love the Mass Effect franchise) and learning about technology in general. In addition, I enjoy watches :watch: and horology :mantelpiece_clock:
 
-- :mailbox: Please reach out and we can have a conversation on how I can add value to your organization or cause: [![Linkedin Badge](https://img.shields.io/badge/-kakbar-blue?style=flat&logo=Linkedin&logoColor=white)](LawrenceLCodes)
+- :mailbox: Please reach out and we can have a conversation on how I can add value to your organization or cause: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lawrencelee7/)
 
 ---
 
