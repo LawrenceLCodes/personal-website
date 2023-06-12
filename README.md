@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="200"/>
+  <img src="https://media.giphy.com/media/xkwVg9LR9dnJWcz2Cj/giphy.gif" width="400"/>
 </div>
 
 <div id="badges" align="center">
@@ -18,31 +18,11 @@
 </h1>
 
 
-### :man_technologist: About Me :
+### :man_technologist: Personal Portfolio site :
 
-I am a Frontend Web Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Canada.
+Thank you for visiting my portfolio GitHub repo! Please do not hesitate to take a look at the live site here: https://www.lawrencelcodes.dev
 
-:telescope: Seeking my next opportunity to build and test web applications.
-
-- :seedling: Focusing on improving my skills with JavaScript.
-
-- :zap: In my free time, I play video games (love the Mass Effect franchise) and learning about technology in general. In addition, I enjoy watches :watch: and horology :mantelpiece_clock:
-
-- :mailbox: Please reach out and we can have a conversation on how I can add value to your organization or cause: [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lawrencelee7/)
-
----
-
-### :hammer_and_wrench: Languages and Tools :
-
-<div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
-</div>
+In the meantime, feel free to take a look at my projects and don't hesitate to share some gaming or Mass Effect memes, I am always in the mood for one!
 
 ---
 
@@ -50,4 +30,3 @@ I am a Frontend Web Developer <img src="https://media.giphy.com/media/WUlplcMpOC
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=LawrenceLCodes&theme=algolia&border_radius=5.0&mode=weekly&card_width=500)](https://git.io/streak-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=LawrenceLCodes&layout=compact&theme=algolia&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-
