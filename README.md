@@ -22,6 +22,8 @@
 
 Thank you for visiting my portfolio GitHub repo! Please do not hesitate to take a look at the live site here: https://www.lawrencelcodes.dev
 
+It was built using HTML, CSS and a Calendly plugin for the floating button.
+
 In the meantime, feel free to take a look at my projects and don't hesitate to share some gaming or Mass Effect memes, I am always in the mood for one!
 
 ---
